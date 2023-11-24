@@ -12,7 +12,9 @@ h5 {
   color: #25a2c3;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  line-height: 1.5;
+  line-height: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
 }
 footer {
   color: #c8e7f0;
@@ -26,26 +28,68 @@ footer p a {
 header {
   background-color: black;
 }
-button {
+main a {
   background-color: #f04c2f;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: white;
+  padding: 0.5em 1em;
+  border-radius: 8%;
+  margin-bottom: 1em;
 }
 .quotation {
   background-color: #e22d0e;
   color: white;
+  text-align: center;
 }
+
 footer {
   background-color: #25a2c3;
 }
 .card {
   border: #dee1e3;
 }
-h1 {
-  font-size: 2em;
+.intro {
+  box-sizing: content-box;
+  padding: 1.2em;
+  background-image: url(../images/banner.jpg);
   text-align: center;
 }
-h6 {
-  color: white;
+h1 {
+  font-size: 2em;
+  line-height: 1;
+  margin: 0.5em;
+}
+.intro p {
+  margin-bottom: 1.5em;
+}
+
+header {
+  height: 4em;
+  text-align: center;
+  padding-top: 1.5em;
+}
+header img {
+  width: 35%;
+}
+section {
+  text-align: center;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+}
+.first-section img {
+  width: 50%;
+  border-radius: 50%;
+  margin: 2em;
+}
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3em;
+}
+.quotation cite {
+  font-style: italic;
+}
+.quotation cite,
+p:last-child {
+  font-size: 0.8em;
 }
