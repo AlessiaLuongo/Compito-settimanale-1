@@ -1,6 +1,51 @@
-html {
-  width: 80%;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Serif+4:opsz@8..60&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap");
+
+body {
+  color: #393d41;
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65;
+}
+h1,
+h5 {
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+}
+footer {
+  color: #c8e7f0;
+}
+footer p {
+  color: white;
+}
+footer p a {
+  color: #c8e7f0;
 }
 header {
   background-color: black;
+}
+button {
+  background-color: #f04c2f;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: white;
+}
+.quotation {
+  background-color: #e22d0e;
+  color: white;
+}
+footer {
+  background-color: #25a2c3;
+}
+.card {
+  border: #dee1e3;
+}
+h1 {
+  font-size: 2em;
+  text-align: center;
+}
+h6 {
+  color: white;
 }
