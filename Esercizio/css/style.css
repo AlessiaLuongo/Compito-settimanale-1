@@ -6,9 +6,11 @@ body {
   font-size: 1.2rem;
   font-family: "Open Sans", sans-serif;
   line-height: 1.65;
+  margin: 0;
 }
 h1,
-h5 {
+h5,
+h6 {
   color: #25a2c3;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -19,10 +21,12 @@ h5 {
 footer {
   color: #c8e7f0;
 }
-footer p {
+footer p,
+i {
   color: white;
 }
-footer p a {
+footer p,
+a {
   color: #c8e7f0;
 }
 header {
@@ -33,27 +37,33 @@ main a {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: white;
-  padding: 0.5em 1em;
+  padding: 1em 1.5em;
   border-radius: 8%;
-  margin-bottom: 1em;
+  text-decoration: blink;
 }
 .quotation {
   background-color: #e22d0e;
   color: white;
   text-align: center;
+  padding-top: 3em;
+  padding-bottom: 1em;
 }
 
 footer {
+  text-align: center;
   background-color: #25a2c3;
+  padding-bottom: 2em;
 }
 .card {
-  border: #dee1e3;
+  padding: 1.5em;
 }
 .intro {
   box-sizing: content-box;
   padding: 1.2em;
+  padding-bottom: 3em;
   background-image: url(../images/banner.jpg);
   text-align: center;
+  background-size: cover;
 }
 h1 {
   font-size: 2em;
@@ -76,15 +86,18 @@ section {
   text-align: center;
   margin-top: 2.5em;
   margin-bottom: 2.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 .first-section img {
-  width: 50%;
+  width: 60%;
   border-radius: 50%;
   margin: 2em;
 }
 h4 {
   font-family: "Montserrat", sans-serif;
   font-size: 1.3em;
+  margin-bottom: 1em;
 }
 .quotation cite {
   font-style: italic;
@@ -92,4 +105,28 @@ h4 {
 .quotation cite,
 p:last-child {
   font-size: 0.8em;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+}
+aside {
+  border: 1px solid #dee1e3;
+  margin-top: 0;
+  padding-bottom: 2em;
+}
+aside h5,
+p {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 1em;
+}
+h6 {
+  color: white;
+  font-size: 2em;
+  padding-top: 1.5em;
+}
+hr {
+  width: 10em;
+  margin: 1 auto;
 }
